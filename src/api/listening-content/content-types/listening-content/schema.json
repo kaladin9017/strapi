@@ -1,0 +1,228 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listening_contents",
+  "info": {
+    "singularName": "listening-content",
+    "pluralName": "listening-contents",
+    "displayName": "Listening Content",
+    "description": "Listening exercises and audio content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "audioFile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "transcript": {
+      "type": "richtext"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "ENGLISH",
+        "FRENCH"
+      ],
+      "required": true
+    },
+    "examType": {
+      "type": "enumeration",
+      "enum": [
+        "CELPIP",
+        "TEF"
+      ],
+      "required": true
+    },
+    "learningPath": {
+      "type": "enumeration",
+      "enum": [
+        "THREE_MONTH",
+        "SIX_MONTH",
+        "TEN_MONTH"
+      ],
+      "required": true
+    },
+    "week": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 40
+    },
+    "day": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 7
+    },
+    "contentType": {
+      "type": "enumeration",
+      "enum": [
+        "LESSON",
+        "PRACTICE",
+        "ASSESSMENT",
+        "REVIEW"
+      ],
+      "required": true
+    },
+    "cefrLevel": {
+      "type": "enumeration",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "required": true
+    },
+    "estimatedTime": {
+      "type": "integer",
+      "required": true,
+      "description": "Estimated completion time in minutes"
+    },
+    "duration": {
+      "type": "integer",
+      "required": true,
+      "description": "Audio duration in seconds"
+    },
+    "learningObjectives": {
+      "type": "json",
+      "required": true
+    },
+    "assessmentCriteria": {
+      "type": "json",
+      "required": true,
+      "description": "CEFR-based assessment criteria",
+      "default": {
+        "comprehension": {
+          "weight": 30,
+          "criteria": {
+            "A1": "Can understand familiar words and very basic phrases concerning themselves, their family and immediate concrete surroundings when people speak slowly and clearly",
+            "A2": "Can understand phrases and the highest frequency vocabulary related to areas of most immediate personal relevance",
+            "B1": "Can understand the main points of clear standard speech on familiar matters regularly encountered in work, school, leisure",
+            "B2": "Can understand extended speech and lectures and follow even complex lines of argument provided the topic is reasonably familiar",
+            "C1": "Can understand extended speech even when it is not clearly structured and when relationships are only implied",
+            "C2": "Can understand any kind of spoken language, whether live or broadcast, delivered at fast native speed"
+          }
+        },
+        "detailRecognition": {
+          "weight": 25,
+          "criteria": {
+            "A1": "Can recognize familiar words and very basic phrases",
+            "A2": "Can catch the main point in short, clear, simple messages and announcements",
+            "B1": "Can understand the main point of many radio or TV programmes on current affairs or topics of personal or professional interest",
+            "B2": "Can understand most TV news and current affairs programmes",
+            "C1": "Can understand a wide range of recorded and broadcast audio material",
+            "C2": "Can understand with ease virtually any kind of spoken language"
+          }
+        },
+        "inference": {
+          "weight": 25,
+          "criteria": {
+            "A1": "Can understand very basic instructions and directions",
+            "A2": "Can understand simple directions and instructions",
+            "B1": "Can understand the main points of clear standard speech on familiar matters",
+            "B2": "Can understand the main ideas of propositionally and linguistically complex speech",
+            "C1": "Can understand implicit meaning and recognize a wide range of idiomatic expressions",
+            "C2": "Can understand with ease any kind of spoken language, including abstract, complex or specialized topics"
+          }
+        },
+        "noteTaking": {
+          "weight": 20,
+          "criteria": {
+            "A1": "Can recognize numbers, prices, times and dates",
+            "A2": "Can understand enough to be able to meet needs of a concrete type",
+            "B1": "Can understand enough to follow extended speech on abstract and complex topics",
+            "B2": "Can understand enough to follow extended speech on abstract and complex topics beyond their own field",
+            "C1": "Can understand enough to follow extended speech on abstract and complex topics beyond their own field",
+            "C2": "Can understand with ease any kind of spoken language, including abstract, complex or specialized topics"
+          }
+        }
+      }
+    },
+    "audioType": {
+      "type": "enumeration",
+      "enum": [
+        "CONVERSATION",
+        "MONOLOGUE",
+        "LECTURE",
+        "INTERVIEW",
+        "NEWS",
+        "ANNOUNCEMENT",
+        "INSTRUCTION",
+        "PRESENTATION"
+      ],
+      "required": true
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": [
+        "STANDARD",
+        "REGIONAL",
+        "INTERNATIONAL",
+        "MIXED"
+      ],
+      "required": true
+    },
+    "speakingSpeed": {
+      "type": "enumeration",
+      "enum": [
+        "SLOW",
+        "NORMAL",
+        "FAST"
+      ],
+      "required": true
+    },
+    "keyVocabulary": {
+      "type": "json",
+      "required": true,
+      "description": "Key vocabulary items with definitions"
+    },
+    "comprehensionQuestions": {
+      "type": "json",
+      "required": true,
+      "description": "Questions to test understanding"
+    },
+    "inferenceQuestions": {
+      "type": "json",
+      "required": false,
+      "description": "Questions requiring inference and analysis"
+    },
+    "culturalNotes": {
+      "type": "richtext",
+      "required": false,
+      "description": "Cultural context and explanations"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "listeningContent"
+    },
+    "relatedContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::listening-content.listening-content"
+    },
+    "additionalMedia": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+} 

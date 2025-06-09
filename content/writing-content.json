@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Introducing Yourself - Email Format",
+    "prompt": "You recently started a new job at a Canadian company. Write an email to your team introducing yourself. Include your background, experience, and what you're excited about in your new role. Your email should be professional but friendly.",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 2,
+    "contentType": "PRACTICE",
+    "cefrLevel": "B2",
+    "estimatedTime": 25,
+    "writingType": "EMAIL",
+    "targetLength": 150,
+    "requiredElements": [
+      "Professional greeting",
+      "Personal introduction",
+      "Work background/experience",
+      "Goals or excitement about the role",
+      "Professional closing"
+    ],
+    "modelAnswer": "Subject: Hello from your new team member!\n\nDear Team,\n\nI hope this email finds you well. I'm excited to introduce myself as the newest member of our team. My name is [Name], and I started as [Position] this week.\n\nI bring five years of experience in [field], having previously worked at [Company] where I developed skills in project management and client relations. I'm particularly passionate about innovative solutions and collaborative teamwork.\n\nI'm thrilled to be joining such a dynamic team and look forward to contributing to our shared goals. Please feel free to reach out if you'd like to chat or if there's anything I can help with as I settle in.\n\nBest regards,\n[Your name]",
+    "evaluationRubric": {
+      "taskCompletion": {"weight": 25, "criteria": "All required elements included, appropriate email format"},
+      "grammar": {"weight": 25, "criteria": "Correct use of tenses, sentence structure"},
+      "vocabulary": {"weight": 25, "criteria": "Professional vocabulary, appropriate register"},
+      "coherence": {"weight": 25, "criteria": "Clear organization, logical flow"}
+    },
+    "commonMistakes": [
+      "Too informal tone for workplace setting",
+      "Missing professional email elements",
+      "Unclear or vague introduction",
+      "Grammar errors with present perfect tense"
+    ],
+    "keyVocabulary": [
+      {"word": "thrilled", "definition": "very excited and pleased"},
+      {"word": "dynamic", "definition": "characterized by constant change and activity"},
+      {"word": "collaborative", "definition": "involving cooperation between people"},
+      {"word": "innovative", "definition": "featuring new methods or ideas"}
+    ],
+    "grammarFocus": [
+      "Present perfect tense for experience",
+      "Professional email language",
+      "Future tense for plans and goals"
+    ],
+    "learningObjectives": [
+      "Write professional workplace emails",
+      "Use appropriate register for business communication",
+      "Structure introductory content effectively"
+    ],
+    "assessmentCriteria": {
+      "taskCompletion": {"weight": 25, "target": "Can write clear, detailed text on subjects related to their interests"},
+      "grammar": {"weight": 25, "target": "Uses reasonably accurately a repertoire of frequently used patterns"},
+      "vocabulary": {"weight": 25, "target": "Has enough vocabulary to express themselves with circumlocutions"},
+      "coherence": {"weight": 25, "target": "Can link elements into a connected sequence"}
+    }
+  },
+  {
+    "title": "Describing Your Hometown",
+    "prompt": "A friend from another country is planning to visit your hometown in Canada. Write a letter describing your city or town. Include information about the climate, attractions, local culture, and what makes it special. Give advice about the best time to visit.",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "SIX_MONTH",
+    "week": 1,
+    "day": 3,
+    "contentType": "PRACTICE",
+    "cefrLevel": "B1",
+    "estimatedTime": 30,
+    "writingType": "LETTER",
+    "targetLength": 200,
+    "requiredElements": [
+      "Friendly greeting",
+      "Description of climate/weather",
+      "Local attractions or landmarks",
+      "Cultural information",
+      "Practical advice for visiting",
+      "Personal closing"
+    ],
+    "modelAnswer": "Dear [Friend's name],\n\nI'm so excited that you're planning to visit my hometown! Let me tell you about [City name] - I know you'll love it here.\n\nOur climate is quite typical of Canada, with four distinct seasons. Summer (June-August) is warm and perfect for outdoor activities, while winter brings snow and great skiing opportunities. I'd recommend visiting in late spring or early fall when the weather is mild and the scenery is beautiful.\n\nThere are many attractions you shouldn't miss. The [local landmark] offers stunning views of the city, and our downtown area has wonderful museums and galleries. If you enjoy nature, the [local park/trail] is perfect for hiking and photography.\n\nWhat makes our city special is the friendly community and rich cultural diversity. You'll find excellent restaurants serving food from around the world, and there are always festivals celebrating different cultures throughout the year.\n\nI can't wait to show you around personally! Let me know your travel dates so we can plan some fun activities together.\n\nWarm regards,\n[Your name]",
+    "evaluationRubric": {
+      "taskCompletion": {"weight": 25, "criteria": "All required information included, appropriate letter format"},
+      "grammar": {"weight": 25, "criteria": "Accurate use of descriptive language and tenses"},
+      "vocabulary": {"weight": 25, "criteria": "Varied vocabulary for describing places and activities"},
+      "coherence": {"weight": 25, "criteria": "Well-organized paragraphs, smooth transitions"}
+    },
+    "commonMistakes": [
+      "Too formal tone for personal letter",
+      "Insufficient detail about local features",
+      "Poor organization of information",
+      "Limited use of descriptive adjectives"
+    ],
+    "keyVocabulary": [
+      {"word": "distinct", "definition": "clearly different and separate"},
+      {"word": "stunning", "definition": "extremely beautiful or impressive"},
+      {"word": "diversity", "definition": "variety, range of different things"},
+      {"word": "mild", "definition": "not severe or extreme (weather)"}
+    ],
+    "grammarFocus": [
+      "Descriptive adjectives and adverbs",
+      "Present tense for current descriptions",
+      "Conditional language for recommendations"
+    ],
+    "learningObjectives": [
+      "Write descriptive personal letters",
+      "Use varied vocabulary for places and activities",
+      "Organize information logically in informal writing"
+    ],
+    "assessmentCriteria": {
+      "taskCompletion": {"weight": 25, "target": "Can write straightforward connected text on familiar topics"},
+      "grammar": {"weight": 25, "target": "Uses reasonably accurately basic patterns and structures"},
+      "vocabulary": {"weight": 25, "target": "Has sufficient vocabulary for everyday topics"},
+      "coherence": {"weight": 25, "target": "Can link simple elements into a connected sequence"}
+    }
+  },
+  {
+    "title": "Présentation personnelle - Format courriel",
+    "prompt": "Vous venez de commencer un nouvel emploi dans une entreprise canadienne-française. Rédigez un courriel à votre équipe pour vous présenter. Incluez votre parcours, votre expérience et ce qui vous enthousiasme dans votre nouveau rôle. Votre courriel doit être professionnel mais amical.",
+    "language": "FRENCH",
+    "examType": "TEF",
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 2,
+    "contentType": "PRACTICE",
+    "cefrLevel": "B2",
+    "estimatedTime": 25,
+    "writingType": "EMAIL",
+    "targetLength": 150,
+    "requiredElements": [
+      "Salutation professionnelle",
+      "Introduction personnelle",
+      "Parcours/expérience professionnelle",
+      "Objectifs ou enthousiasme pour le poste",
+      "Formule de politesse"
+    ],
+    "modelAnswer": "Objet : Bonjour de votre nouveau collègue !\n\nChère équipe,\n\nJ'espère que ce courriel vous trouve en bonne santé. Je suis ravi(e) de me présenter comme le nouveau membre de notre équipe. Je m'appelle [Nom] et j'ai commencé comme [Poste] cette semaine.\n\nJ'apporte cinq années d'expérience dans le domaine de [secteur], ayant précédemment travaillé chez [Entreprise] où j'ai développé des compétences en gestion de projet et relations clients. Je suis particulièrement passionné(e) par les solutions innovantes et le travail collaboratif.\n\nJe suis enchanté(e) de rejoindre une équipe si dynamique et j'ai hâte de contribuer à nos objectifs communs. N'hésitez pas à me contacter si vous souhaitez discuter ou s'il y a quelque chose avec quoi je peux vous aider pendant que je m'installe.\n\nCordialement,\n[Votre nom]",
+    "evaluationRubric": {
+      "taskCompletion": {"weight": 25, "criteria": "Tous les éléments requis inclus, format de courriel approprié"},
+      "grammar": {"weight": 25, "criteria": "Usage correct des temps, structure des phrases"},
+      "vocabulary": {"weight": 25, "criteria": "Vocabulaire professionnel, registre approprié"},
+      "coherence": {"weight": 25, "criteria": "Organisation claire, enchaînement logique"}
+    },
+    "commonMistakes": [
+      "Ton trop familier pour le milieu professionnel",
+      "Éléments manquants du courriel professionnel",
+      "Introduction floue ou vague",
+      "Erreurs grammaticales avec le passé composé"
+    ],
+    "keyVocabulary": [
+      {"word": "enchanté", "definition": "très heureux et satisfait"},
+      {"word": "dynamique", "definition": "caractérisé par le changement et l'activité constants"},
+      {"word": "collaboratif", "definition": "impliquant la coopération entre les personnes"},
+      {"word": "innovant", "definition": "présentant de nouvelles méthodes ou idées"}
+    ],
+    "grammarFocus": [
+      "Passé composé pour l'expérience",
+      "Langage professionnel du courriel",
+      "Futur proche pour les plans et objectifs"
+    ],
+    "learningObjectives": [
+      "Rédiger des courriels professionnels",
+      "Utiliser le registre approprié pour la communication d'affaires",
+      "Structurer efficacement le contenu d'introduction"
+    ],
+    "assessmentCriteria": {
+      "taskCompletion": {"weight": 25, "target": "Peut écrire un texte clair et détaillé sur des sujets relatifs à ses intérêts"},
+      "grammar": {"weight": 25, "target": "Utilise avec une correction raisonnable un répertoire de tournures fréquemment utilisées"},
+      "vocabulary": {"weight": 25, "target": "Possède un vocabulaire suffisant pour s'exprimer avec quelques périphrases"},
+      "coherence": {"weight": 25, "target": "Peut relier une série d'éléments en une séquence cohérente"}
+    }
+  }
+] 

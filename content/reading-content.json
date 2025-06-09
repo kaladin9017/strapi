@@ -1,0 +1,173 @@
+[
+  {
+    "title": "Welcome to Your English Learning Journey",
+    "content": "Welcome to your CELPIP preparation course! This is an exciting step toward achieving your language goals. In this course, you will develop the four essential skills: reading, writing, listening, and speaking.\n\nCanada is a diverse country with two official languages: English and French. As you prepare for the CELPIP exam, you'll learn about Canadian culture, workplace communication, and daily life situations.\n\nYour success depends on consistent practice and dedication. Each lesson builds upon the previous one, so it's important to complete all activities. Remember, making mistakes is part of learning!",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 1,
+    "contentType": "LESSON",
+    "cefrLevel": "B1",
+    "estimatedTime": 15,
+    "textType": "DESCRIPTIVE",
+    "textLength": 120,
+    "keyVocabulary": [
+      {"word": "diverse", "definition": "showing variety; different from each other"},
+      {"word": "essential", "definition": "absolutely necessary; extremely important"},
+      {"word": "dedication", "definition": "commitment; devotion to a task"},
+      {"word": "consistent", "definition": "regular; not changing"}
+    ],
+    "grammarFocus": [
+      "Present tense verbs",
+      "Modal verbs (will, can)",
+      "Possessive pronouns (your, its)"
+    ],
+    "comprehensionQuestions": [
+      {
+        "question": "What are the four essential skills mentioned in the text?",
+        "type": "multiple_choice",
+        "options": ["Reading, writing, math, science", "Reading, writing, listening, speaking", "Grammar, vocabulary, pronunciation, fluency"],
+        "correct_answer": "Reading, writing, listening, speaking"
+      },
+      {
+        "question": "How many official languages does Canada have?",
+        "type": "short_answer",
+        "correct_answer": "two"
+      }
+    ],
+    "criticalThinkingQuestions": [
+      {
+        "question": "Why do you think making mistakes is considered part of learning?",
+        "type": "open_ended",
+        "sample_answer": "Making mistakes helps identify areas for improvement and reinforces correct usage through correction."
+      }
+    ],
+    "culturalNotes": "Canada's bilingual nature reflects its history and commitment to linguistic diversity. Understanding this helps in CELPIP preparation.",
+    "learningObjectives": [
+      "Understand course structure and expectations",
+      "Identify key vocabulary related to language learning",
+      "Recognize present tense and modal verbs"
+    ],
+    "assessmentCriteria": {
+      "taskCompletion": {"weight": 25, "target": "Can write straightforward connected text on familiar topics"},
+      "grammar": {"weight": 25, "target": "Uses reasonably accurately a repertoire of frequently used patterns"},
+      "vocabulary": {"weight": 25, "target": "Has enough vocabulary to express themselves with circumlocutions"},
+      "coherence": {"weight": 25, "target": "Can link elements into a connected sequence"}
+    }
+  },
+  {
+    "title": "Canadian Weather Conversations",
+    "content": "Canadians love talking about the weather, and for good reason! Canada experiences four distinct seasons, each bringing its own beauty and challenges.\n\nWinter in Canada can be quite cold, with temperatures dropping below -20°C in many regions. Canadians stay warm by wearing layers, using proper winter clothing, and heating their homes efficiently. Many people enjoy winter activities like skiing, skating, and ice hockey.\n\nSummer brings warmer weather, with temperatures often reaching 25-30°C. This is when many Canadians spend time outdoors, having barbecues, going camping, or visiting lakes and beaches. Weather conversations are common because conditions can change quickly, especially during spring and fall.",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 4,
+    "contentType": "PRACTICE",
+    "cefrLevel": "B1",
+    "estimatedTime": 20,
+    "textType": "DESCRIPTIVE",
+    "textLength": 145,
+    "keyVocabulary": [
+      {"word": "distinct", "definition": "clearly different or separate"},
+      {"word": "efficiently", "definition": "in a way that achieves maximum productivity"},
+      {"word": "barbecue", "definition": "outdoor cooking event, often social"},
+      {"word": "conditions", "definition": "the state of weather or environment"}
+    ],
+    "grammarFocus": [
+      "Present simple for general facts",
+      "Comparative adjectives (colder, warmer)",
+      "Time expressions (during, when)"
+    ],
+    "comprehensionQuestions": [
+      {
+        "question": "What temperature can Canadian winters reach?",
+        "type": "multiple_choice", 
+        "options": ["Below -10°C", "Below -20°C", "Below -30°C"],
+        "correct_answer": "Below -20°C"
+      },
+      {
+        "question": "Name two summer activities mentioned in the text.",
+        "type": "short_answer",
+        "correct_answer": "barbecues, camping, visiting lakes/beaches"
+      }
+    ],
+    "criticalThinkingQuestions": [
+      {
+        "question": "Why might weather be such a popular conversation topic in Canada?",
+        "type": "open_ended",
+        "sample_answer": "Weather significantly impacts daily life, activities, and planning in Canada due to extreme seasonal variations."
+      }
+    ],
+    "culturalNotes": "Weather talk serves as a universal ice-breaker in Canadian culture. It's considered polite small talk and helps build social connections.",
+    "learningObjectives": [
+      "Understand Canadian cultural practices around weather",
+      "Learn weather-related vocabulary",
+      "Practice reading for specific information"
+    ],
+    "assessmentCriteria": {
+      "taskCompletion": {"weight": 25, "target": "Can understand main points of clear standard speech on familiar matters"},
+      "grammar": {"weight": 25, "target": "Uses reasonably accurately a repertoire of frequently used patterns"},
+      "vocabulary": {"weight": 25, "target": "Has enough vocabulary for most topics of personal interest"},
+      "coherence": {"weight": 25, "target": "Can link elements into a connected sequence"}
+    }
+  },
+  {
+    "title": "Bienvenue dans votre parcours d'apprentissage du français",
+    "content": "Bienvenue dans votre cours de préparation au TEF ! C'est une étape passionnante vers l'atteinte de vos objectifs linguistiques. Dans ce cours, vous développerez les quatre compétences essentielles : la lecture, l'écriture, l'écoute et l'expression orale.\n\nLe Canada est un pays diversifié avec deux langues officielles : l'anglais et le français. En vous préparant à l'examen TEF, vous découvrirez la culture canadienne-française, la communication en milieu de travail québécois et les situations de la vie quotidienne.\n\nVotre succès dépend d'une pratique constante et de votre dévouement. Chaque leçon s'appuie sur la précédente, il est donc important de terminer toutes les activités. N'oubliez pas que faire des erreurs fait partie de l'apprentissage !",
+    "language": "FRENCH",
+    "examType": "TEF", 
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 1,
+    "contentType": "LESSON",
+    "cefrLevel": "B1",
+    "estimatedTime": 15,
+    "textType": "DESCRIPTIVE",
+    "textLength": 135,
+    "keyVocabulary": [
+      {"word": "diversifié", "definition": "qui présente de la variété ; différent"},
+      {"word": "compétences", "definition": "capacités, habiletés dans un domaine"},
+      {"word": "dévouement", "definition": "engagement total ; consécration"},
+      {"word": "constante", "definition": "régulière ; qui ne change pas"}
+    ],
+    "grammarFocus": [
+      "Verbes au présent",
+      "Verbes modaux (pouvoir, devoir)",
+      "Pronoms possessifs (votre, vos)"
+    ],
+    "comprehensionQuestions": [
+      {
+        "question": "Quelles sont les quatre compétences essentielles mentionnées ?",
+        "type": "multiple_choice",
+        "options": ["Lecture, écriture, écoute, expression orale", "Grammaire, vocabulaire, prononciation, fluidité", "Français, anglais, culture, société"],
+        "correct_answer": "Lecture, écriture, écoute, expression orale"
+      },
+      {
+        "question": "Combien de langues officielles le Canada a-t-il ?",
+        "type": "short_answer", 
+        "correct_answer": "deux"
+      }
+    ],
+    "criticalThinkingQuestions": [
+      {
+        "question": "Pourquoi est-il important de terminer toutes les activités ?",
+        "type": "open_ended",
+        "sample_answer": "Chaque leçon s'appuie sur la précédente, créant une progression logique dans l'apprentissage."
+      }
+    ],
+    "culturalNotes": "Le français au Canada a ses propres caractéristiques, particulièrement au Québec, avec des expressions et un vocabulaire spécifiques.",
+    "learningObjectives": [
+      "Comprendre la structure du cours TEF",
+      "Identifier le vocabulaire clé de l'apprentissage",
+      "Reconnaître les verbes au présent"
+    ],
+    "assessmentCriteria": {
+      "taskCompletion": {"weight": 25, "target": "Peut écrire un texte articulé simplement sur des sujets familiers"},
+      "grammar": {"weight": 25, "target": "Utilise avec une correction raisonnable un répertoire de tournures fréquemment utilisées"},
+      "vocabulary": {"weight": 25, "target": "Possède un vocabulaire suffisant pour s'exprimer avec quelques périphrases"},
+      "coherence": {"weight": 25, "target": "Peut relier une série d'éléments courts et simples"}
+    }
+  }
+] 

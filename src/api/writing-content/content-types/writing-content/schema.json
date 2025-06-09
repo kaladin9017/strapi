@@ -1,0 +1,208 @@
+{
+  "kind": "collectionType",
+  "collectionName": "writing_contents",
+  "info": {
+    "singularName": "writing-content",
+    "pluralName": "writing-contents",
+    "displayName": "Writing Content",
+    "description": "Writing exercises and prompts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "prompt": {
+      "type": "richtext",
+      "required": true
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "ENGLISH",
+        "FRENCH"
+      ],
+      "required": true
+    },
+    "examType": {
+      "type": "enumeration",
+      "enum": [
+        "CELPIP",
+        "TEF"
+      ],
+      "required": true
+    },
+    "learningPath": {
+      "type": "enumeration",
+      "enum": [
+        "THREE_MONTH",
+        "SIX_MONTH",
+        "TEN_MONTH"
+      ],
+      "required": true
+    },
+    "week": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 40
+    },
+    "day": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 7
+    },
+    "contentType": {
+      "type": "enumeration",
+      "enum": [
+        "LESSON",
+        "PRACTICE",
+        "ASSESSMENT",
+        "REVIEW"
+      ],
+      "required": true
+    },
+    "cefrLevel": {
+      "type": "enumeration",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "required": true
+    },
+    "estimatedTime": {
+      "type": "integer",
+      "required": true,
+      "description": "Estimated completion time in minutes"
+    },
+    "learningObjectives": {
+      "type": "json",
+      "required": true
+    },
+    "assessmentCriteria": {
+      "type": "json",
+      "required": true,
+      "description": "CEFR-based assessment criteria",
+      "default": {
+        "taskCompletion": {
+          "weight": 25,
+          "criteria": {
+            "A1": "Can write simple isolated phrases and sentences",
+            "A2": "Can write a series of simple phrases and sentences linked with simple connectors",
+            "B1": "Can write straightforward connected text on topics which are familiar or of personal interest",
+            "B2": "Can write clear, detailed text on a wide range of subjects",
+            "C1": "Can write clear, well-structured text on complex subjects",
+            "C2": "Can write clear, smoothly flowing text in an appropriate style"
+          }
+        },
+        "grammar": {
+          "weight": 25,
+          "criteria": {
+            "A1": "Uses basic sentence patterns with memorized phrases",
+            "A2": "Uses some simple structures correctly, but still systematically makes basic mistakes",
+            "B1": "Uses reasonably accurately a repertoire of frequently used patterns",
+            "B2": "Shows a relatively high degree of grammatical control",
+            "C1": "Consistently maintains a high degree of grammatical accuracy",
+            "C2": "Maintains consistent grammatical control of complex language"
+          }
+        },
+        "vocabulary": {
+          "weight": 25,
+          "criteria": {
+            "A1": "Has a basic vocabulary repertoire of isolated words and phrases",
+            "A2": "Has sufficient vocabulary for basic needs",
+            "B1": "Has enough vocabulary to express themselves with some circumlocutions",
+            "B2": "Has a good range of vocabulary for most topics",
+            "C1": "Has a good command of a broad lexical repertoire",
+            "C2": "Has a good command of idiomatic expressions and colloquialisms"
+          }
+        },
+        "coherence": {
+          "weight": 25,
+          "criteria": {
+            "A1": "Can link words or groups of words with very basic linear connectors",
+            "A2": "Can link a series of shorter, discrete simple elements into a connected, linear sequence",
+            "B1": "Can link a series of shorter, discrete elements into a connected, linear sequence",
+            "B2": "Can use a limited number of cohesive devices to link sentences",
+            "C1": "Can use a variety of linking words efficiently",
+            "C2": "Can create coherent and cohesive text making full and appropriate use of a variety of organizational patterns"
+          }
+        }
+      }
+    },
+    "writingType": {
+      "type": "enumeration",
+      "enum": [
+        "EMAIL",
+        "LETTER",
+        "ESSAY",
+        "REPORT",
+        "STORY",
+        "DESCRIPTION",
+        "OPINION",
+        "FORMAL",
+        "INFORMAL"
+      ],
+      "required": true
+    },
+    "targetLength": {
+      "type": "integer",
+      "required": true,
+      "description": "Target word count"
+    },
+    "requiredElements": {
+      "type": "json",
+      "required": true,
+      "description": "Required structural elements (e.g., greeting, conclusion)"
+    },
+    "grammarFocus": {
+      "type": "json",
+      "required": true,
+      "description": "Grammar points to practice"
+    },
+    "vocabularyFocus": {
+      "type": "json",
+      "required": true,
+      "description": "Vocabulary items to use"
+    },
+    "modelAnswer": {
+      "type": "richtext",
+      "required": true,
+      "description": "Example of a good response"
+    },
+    "commonMistakes": {
+      "type": "json",
+      "required": false,
+      "description": "Common errors to avoid"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "writingContent"
+    },
+    "relatedContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::writing-content.writing-content"
+    },
+    "additionalMedia": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+} 

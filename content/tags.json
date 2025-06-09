@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Week1",
+    "description": "First week content",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH",
+    "cefrLevel": "B1",
+    "skillCategory": "GRAMMAR",
+    "topic": "EDUCATIONAL",
+    "canDoStatement": "Can understand the main points of clear standard input on familiar matters"
+  },
+  {
+    "name": "Welcome",
+    "description": "Welcome and introduction content",
+    "language": "ENGLISH",
+    "examType": "CELPIP", 
+    "learningPath": "THREE_MONTH",
+    "cefrLevel": "A2",
+    "skillCategory": "COMPREHENSION",
+    "topic": "PERSONAL",
+    "canDoStatement": "Can understand basic greetings and introductions"
+  },
+  {
+    "name": "Canadian Culture",
+    "description": "Content about Canadian culture and customs",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH", 
+    "cefrLevel": "B1",
+    "skillCategory": "VOCABULARY",
+    "topic": "CULTURAL",
+    "canDoStatement": "Can understand texts about cultural topics"
+  },
+  {
+    "name": "Basic Grammar",
+    "description": "Fundamental grammar concepts",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH",
+    "cefrLevel": "A2",
+    "skillCategory": "GRAMMAR", 
+    "topic": "EDUCATIONAL",
+    "canDoStatement": "Can use basic grammatical structures correctly"
+  },
+  {
+    "name": "Semaine1",
+    "description": "Contenu de la première semaine",
+    "language": "FRENCH",
+    "examType": "TEF",
+    "learningPath": "THREE_MONTH",
+    "cefrLevel": "B1", 
+    "skillCategory": "GRAMMAR",
+    "topic": "EDUCATIONAL",
+    "canDoStatement": "Peut comprendre les points principaux d'un discours clair sur des sujets familiers"
+  },
+  {
+    "name": "Bienvenue",
+    "description": "Contenu d'accueil et d'introduction",
+    "language": "FRENCH",
+    "examType": "TEF",
+    "learningPath": "THREE_MONTH",
+    "cefrLevel": "A2",
+    "skillCategory": "COMPREHENSION",
+    "topic": "PERSONAL", 
+    "canDoStatement": "Peut comprendre les salutations de base et les présentations"
+  }
+] 

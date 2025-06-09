@@ -1,0 +1,117 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "singularName": "tag",
+    "pluralName": "tags",
+    "displayName": "Tag",
+    "description": "Tags for organizing content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "ENGLISH",
+        "FRENCH"
+      ],
+      "required": true
+    },
+    "examType": {
+      "type": "enumeration",
+      "enum": [
+        "CELPIP",
+        "TEF"
+      ],
+      "required": true
+    },
+    "learningPath": {
+      "type": "enumeration",
+      "enum": [
+        "THREE_MONTH",
+        "SIX_MONTH",
+        "TEN_MONTH"
+      ],
+      "required": true
+    },
+    "cefrLevel": {
+      "type": "enumeration",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "required": true
+    },
+    "skillCategory": {
+      "type": "enumeration",
+      "enum": [
+        "GRAMMAR",
+        "VOCABULARY",
+        "PRONUNCIATION",
+        "FLUENCY",
+        "COMPREHENSION",
+        "INTERACTION",
+        "PRODUCTION",
+        "STRATEGIES"
+      ],
+      "required": true
+    },
+    "topic": {
+      "type": "enumeration",
+      "enum": [
+        "PERSONAL",
+        "PUBLIC",
+        "OCCUPATIONAL",
+        "EDUCATIONAL",
+        "CULTURAL",
+        "SOCIAL",
+        "PROFESSIONAL",
+        "ACADEMIC"
+      ],
+      "required": true
+    },
+    "canDoStatement": {
+      "type": "text",
+      "required": true,
+      "description": "CEFR can-do statement for this tag"
+    },
+    "readingContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::reading-content.reading-content",
+      "inversedBy": "tags"
+    },
+    "writingContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::writing-content.writing-content",
+      "inversedBy": "tags"
+    },
+    "listeningContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::listening-content.listening-content",
+      "inversedBy": "tags"
+    },
+    "speakingContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::speaking-content.speaking-content",
+      "inversedBy": "tags"
+    }
+  }
+} 

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Welcome to Your CELPIP Journey - 3 Month Path",
+    "content": "Welcome to your intensive CELPIP preparation course! This 3-month program is designed for motivated learners who want to achieve their target score quickly. You'll practice all four skills daily with challenging exercises.\n\nCanada welcomes over 400,000 new immigrants each year. The CELPIP test helps assess your English abilities for immigration, citizenship, and professional designation. Success requires dedication, consistent practice, and familiarity with Canadian culture.\n\nIn this intensive program, you'll complete 2-3 exercises per skill each day. The pace is fast but rewarding. Remember: practice makes perfect!",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 1,
+    "contentType": "LESSON",
+    "cefrLevel": "B2",
+    "estimatedTime": 20,
+    "textType": "DESCRIPTIVE",
+    "textLength": 150,
+    "keyVocabulary": [
+      {"word": "intensive", "definition": "concentrated and thorough"},
+      {"word": "motivated", "definition": "having a strong desire to succeed"},
+      {"word": "designation", "definition": "official title or status"},
+      {"word": "dedication", "definition": "commitment to a task or purpose"}
+    ],
+    "grammarFocus": [
+      "Present tense",
+      "Future tense with 'will'",
+      "Passive voice"
+    ],
+    "comprehensionQuestions": [
+      {
+        "question": "How many immigrants does Canada welcome each year?",
+        "type": "multiple_choice",
+        "options": ["300,000", "400,000", "500,000", "600,000"],
+        "correct_answer": "400,000"
+      },
+      {
+        "question": "How many exercises per skill will you complete daily in the 3-month program?",
+        "type": "short_answer",
+        "correct_answer": "2-3"
+      }
+    ],
+    "learningObjectives": [
+      "Understand the 3-month program structure",
+      "Learn about CELPIP test purpose",
+      "Identify key vocabulary for immigration topics"
+    ],
+    "assessmentCriteria": {
+      "comprehension": {"weight": 40, "target": "Can understand detailed text on subjects related to their interests"},
+      "vocabulary": {"weight": 30, "target": "Has enough vocabulary to express themselves with circumlocutions"},
+      "inference": {"weight": 30, "target": "Can identify main ideas and supporting details"}
+    }
+  },
+  {
+    "title": "Welcome to Your CELPIP Journey - 6 Month Path",
+    "content": "Welcome to your CELPIP preparation course! This 6-month program offers a balanced approach to language learning. You'll build skills gradually while maintaining a manageable study schedule.\n\nThe CELPIP test evaluates your English proficiency in real Canadian situations. You'll encounter scenarios from workplace conversations to community interactions. This test reflects the English you'll actually use in Canada.\n\nYour 6-month journey includes 1-2 exercises per skill daily. This steady pace allows for deeper learning and retention. Take your time to master each concept.",
+    "language": "ENGLISH",
+    "examType": "CELPIP",
+    "learningPath": "SIX_MONTH",
+    "week": 1,
+    "day": 1,
+    "contentType": "LESSON",
+    "cefrLevel": "B1",
+    "estimatedTime": 15,
+    "textType": "DESCRIPTIVE", 
+    "textLength": 120,
+    "keyVocabulary": [
+      {"word": "balanced", "definition": "having equal proportions; stable"},
+      {"word": "gradually", "definition": "slowly over time"},
+      {"word": "proficiency", "definition": "skill and expertise"},
+      {"word": "retention", "definition": "ability to remember"}
+    ],
+    "grammarFocus": [
+      "Present tense",
+      "Future tense", 
+      "Modal verbs (will, can)"
+    ],
+    "comprehensionQuestions": [
+      {
+        "question": "How does this program describe its approach to learning?",
+        "type": "multiple_choice",
+        "options": ["Intensive", "Balanced", "Rapid", "Difficult"],
+        "correct_answer": "Balanced"
+      },
+      {
+        "question": "What does CELPIP evaluate?",
+        "type": "short_answer",
+        "correct_answer": "English proficiency in real Canadian situations"
+      }
+    ],
+    "learningObjectives": [
+      "Understand the 6-month program approach",
+      "Learn about real-world English usage",
+      "Develop steady learning habits"
+    ],
+    "assessmentCriteria": {
+      "comprehension": {"weight": 40, "target": "Can understand straightforward texts on familiar topics"},
+      "vocabulary": {"weight": 30, "target": "Has sufficient vocabulary for everyday topics"},
+      "inference": {"weight": 30, "target": "Can identify main ideas in clear, standard texts"}
+    }
+  },
+  {
+    "title": "Bienvenue dans votre parcours TEF - 3 mois",
+    "content": "Bienvenue dans votre cours intensif de préparation au TEF ! Ce programme de 3 mois est conçu pour les apprenants motivés qui souhaitent atteindre leur score cible rapidement.\n\nLe Canada accueille plus de 400 000 nouveaux immigrants chaque année. Le test TEF évalue vos compétences en français pour l'immigration, la citoyenneté et la reconnaissance professionnelle.\n\nDans ce programme intensif, vous compléterez 2-3 exercices par compétence chaque jour. Le rythme est soutenu mais gratifiant. Rappelez-vous : c'est en pratiquant qu'on devient parfait !",
+    "language": "FRENCH",
+    "examType": "TEF",
+    "learningPath": "THREE_MONTH",
+    "week": 1,
+    "day": 1,
+    "contentType": "LESSON",
+    "cefrLevel": "B2",
+    "estimatedTime": 20,
+    "textType": "DESCRIPTIVE",
+    "textLength": 145,
+    "keyVocabulary": [
+      {"word": "intensif", "definition": "concentré et approfondi"},
+      {"word": "motivés", "definition": "ayant un fort désir de réussir"},
+      {"word": "reconnaissance", "definition": "acceptation officielle"},
+      {"word": "soutenu", "definition": "constant et régulier"}
+    ],
+    "grammarFocus": [
+      "Présent de l'indicatif",
+      "Futur simple",
+      "Voix passive"
+    ],
+    "comprehensionQuestions": [
+      {
+        "question": "Combien d'immigrants le Canada accueille-t-il chaque année ?",
+        "type": "multiple_choice",
+        "options": ["300 000", "400 000", "500 000", "600 000"],
+        "correct_answer": "400 000"
+      },
+      {
+        "question": "Combien d'exercices par compétence complèterez-vous quotidiennement ?",
+        "type": "short_answer",
+        "correct_answer": "2-3"
+      }
+    ],
+    "learningObjectives": [
+      "Comprendre la structure du programme de 3 mois",
+      "Apprendre l'objectif du test TEF",
+      "Identifier le vocabulaire clé pour l'immigration"
+    ],
+    "assessmentCriteria": {
+      "comprehension": {"weight": 40, "target": "Peut comprendre un texte détaillé sur des sujets relatifs à ses intérêts"},
+      "vocabulary": {"weight": 30, "target": "Possède un vocabulaire suffisant pour s'exprimer avec quelques périphrases"},
+      "inference": {"weight": 30, "target": "Peut identifier les idées principales et les détails de soutien"}
+    }
+  }
+] 

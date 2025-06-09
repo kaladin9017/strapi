@@ -1,0 +1,256 @@
+{
+  "kind": "collectionType",
+  "collectionName": "speaking_contents",
+  "info": {
+    "singularName": "speaking-content",
+    "pluralName": "speaking-contents",
+    "displayName": "Speaking Content",
+    "description": "Speaking exercises and prompts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "prompt": {
+      "type": "richtext",
+      "required": true
+    },
+    "instructions": {
+      "type": "richtext"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "ENGLISH",
+        "FRENCH"
+      ],
+      "required": true
+    },
+    "examType": {
+      "type": "enumeration",
+      "enum": [
+        "CELPIP",
+        "TEF"
+      ],
+      "required": true
+    },
+    "learningPath": {
+      "type": "enumeration",
+      "enum": [
+        "THREE_MONTH",
+        "SIX_MONTH",
+        "TEN_MONTH"
+      ],
+      "required": true
+    },
+    "week": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 40
+    },
+    "day": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 7
+    },
+    "contentType": {
+      "type": "enumeration",
+      "enum": [
+        "LESSON",
+        "PRACTICE",
+        "ASSESSMENT",
+        "REVIEW"
+      ],
+      "required": true
+    },
+    "cefrLevel": {
+      "type": "enumeration",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "required": true
+    },
+    "estimatedTime": {
+      "type": "integer",
+      "required": true,
+      "description": "Estimated completion time in minutes"
+    },
+    "preparationTime": {
+      "type": "integer",
+      "required": true,
+      "description": "Time allowed for preparation in seconds"
+    },
+    "speakingTime": {
+      "type": "integer",
+      "required": true,
+      "description": "Time allowed for speaking in seconds"
+    },
+    "learningObjectives": {
+      "type": "json",
+      "required": true
+    },
+    "assessmentCriteria": {
+      "type": "json",
+      "required": true,
+      "description": "CEFR-based assessment criteria",
+      "default": {
+        "taskCompletion": {
+          "weight": 20,
+          "criteria": {
+            "A1": "Can interact in a simple way provided the other person talks slowly and clearly",
+            "A2": "Can communicate in simple and routine tasks requiring a simple and direct exchange of information",
+            "B1": "Can deal with most situations likely to arise while travelling in an area where the language is spoken",
+            "B2": "Can interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible",
+            "C1": "Can express ideas fluently and spontaneously without much obvious searching for expressions",
+            "C2": "Can take part effortlessly in any conversation or discussion and have a good familiarity with idiomatic expressions"
+          }
+        },
+        "grammar": {
+          "weight": 20,
+          "criteria": {
+            "A1": "Uses some simple structures correctly, but still systematically makes basic mistakes",
+            "A2": "Uses some simple structures correctly, but still systematically makes basic mistakes",
+            "B1": "Uses reasonably accurately a repertoire of frequently used patterns",
+            "B2": "Shows a relatively high degree of grammatical control",
+            "C1": "Consistently maintains a high degree of grammatical accuracy",
+            "C2": "Maintains consistent grammatical control of complex language"
+          }
+        },
+        "vocabulary": {
+          "weight": 20,
+          "criteria": {
+            "A1": "Has a basic vocabulary repertoire of isolated words and phrases",
+            "A2": "Has sufficient vocabulary for basic needs",
+            "B1": "Has enough vocabulary to express themselves with some circumlocutions",
+            "B2": "Has a good range of vocabulary for most topics",
+            "C1": "Has a good command of a broad lexical repertoire",
+            "C2": "Has a good command of idiomatic expressions and colloquialisms"
+          }
+        },
+        "pronunciation": {
+          "weight": 20,
+          "criteria": {
+            "A1": "Pronunciation of a very limited repertoire of learned words and phrases can be understood with some effort",
+            "A2": "Pronunciation is generally clear enough to be understood despite a noticeable foreign accent",
+            "B1": "Pronunciation is clearly intelligible even if a foreign accent is sometimes evident",
+            "B2": "Has a clear, natural pronunciation and intonation",
+            "C1": "Can vary intonation and place sentence stress correctly in order to express finer shades of meaning",
+            "C2": "Can vary intonation and place sentence stress correctly in order to express finer shades of meaning"
+          }
+        },
+        "fluency": {
+          "weight": 20,
+          "criteria": {
+            "A1": "Can manage very short, isolated, mainly pre-packaged utterances",
+            "A2": "Can make themselves understood in short utterances, even though pauses, false starts and reformulation are very evident",
+            "B1": "Can keep going comprehensibly, even though pausing for grammatical and lexical planning and repair is very evident",
+            "B2": "Can produce stretches of language with a fairly even tempo",
+            "C1": "Can express themselves fluently and spontaneously, almost effortlessly",
+            "C2": "Can express themselves spontaneously at length with a natural colloquial flow"
+          }
+        }
+      }
+    },
+    "speakingType": {
+      "type": "enumeration",
+      "enum": [
+        "PRESENTATION",
+        "CONVERSATION",
+        "INTERVIEW",
+        "DESCRIPTION",
+        "OPINION",
+        "STORYTELLING",
+        "DEBATE",
+        "ROLE_PLAY"
+      ],
+      "required": true
+    },
+    "interactionType": {
+      "type": "enumeration",
+      "enum": [
+        "INDIVIDUAL",
+        "PAIR",
+        "GROUP",
+        "CLASS"
+      ],
+      "required": true
+    },
+    "targetDuration": {
+      "type": "integer",
+      "required": true,
+      "description": "Target speaking duration in seconds"
+    },
+    "requiredElements": {
+      "type": "json",
+      "required": true,
+      "description": "Required speaking elements (e.g., introduction, conclusion)"
+    },
+    "grammarFocus": {
+      "type": "json",
+      "required": true,
+      "description": "Grammar points to practice"
+    },
+    "vocabularyFocus": {
+      "type": "json",
+      "required": true,
+      "description": "Vocabulary items to use"
+    },
+    "pronunciationFocus": {
+      "type": "json",
+      "required": true,
+      "description": "Pronunciation points to practice"
+    },
+    "fluencyMarkers": {
+      "type": "json",
+      "required": true,
+      "description": "Fluency indicators to demonstrate"
+    },
+    "modelResponse": {
+      "type": "richtext",
+      "required": true,
+      "description": "Example of a good response"
+    },
+    "evaluationRubric": {
+      "type": "json",
+      "required": true,
+      "description": "Detailed scoring criteria"
+    },
+    "commonMistakes": {
+      "type": "json",
+      "required": false,
+      "description": "Common errors to avoid"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "speakingContent"
+    },
+    "relatedContent": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::speaking-content.speaking-content"
+    },
+    "additionalMedia": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+} 
